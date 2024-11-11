@@ -25,7 +25,7 @@
 ## About Me
 * Personal/professional background
 
-# State Machines, Actors, Agents, and Cognitive Architecture
+# State Machines & Actors
 
 ## Intro to State Machines
 * Why State Machines?
@@ -58,8 +58,7 @@
     * Creates other Actors
 * Creating an Actor with XState
 
-## State Machines + LLM = <3
-* TABLE—Comparison between state machines and LLMs (e.g. deterministic vs non-deterministic)
+# Agents, and Cognitive Architecture
 
 ## From Actors to Agents
 * What's an Agent?
@@ -101,18 +100,21 @@
     * e.g. ChatManagers in AutoGen
 * Heirarchical
     * Nest the supervisors
-* State Machine
+* Custom: State Machine
 
 # Building apps with State Machine Cognitive Architecture
 
+## State Machines + LLM = <3 Synergy
+* TABLE—Comparison between state machines and LLMs (e.g. deterministic vs non-deterministic)
+
 ## Multi-agent Pattern Implementations using State Machines
-* Tool use (i.e. creating actor)
+* DEMOS
+* Tool use
 * Reflection (+ turns)
 * Collaboration & Distribution (specialization across agents coming together)
 * Dynamic planning (Will this work?)
-* Machine composition
 
-## Subgraphs?
+## Subgraphs? Composition?
 
 # Closing
 
@@ -125,4 +127,5 @@
 
 ## Key take-aways, final note
 * State machines are the glue between the "classic" structured world and AI. They're the skeleton upon which engineers can build with both.
+* Combining LLMs with state machines brings structure/predictability/control/observability
 * Next level of LLM-driven is fully autonomous agent, no pre-defined steps at all. But maybe that's just the LLM generating a state machine?
