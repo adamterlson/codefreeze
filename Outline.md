@@ -4,14 +4,23 @@
 * What the Actor model is and how to apply it
 * What is Agentic AI, what are the common "cognitive architecture" patterns, including leveraging state machines
 * How to leverage State Machines to implement agentic AI application patterns (reflection, etc)
-* Libraries to use...
+* Libraries to use/why to maybe not use them...
 
 # Introduction
-* Hook: Working at Best Buy and greenfielding POS, applying state machines—they are a powerful tool
-    * Had never built a state machine before...
-    * Dig deep, create a solid foundation that we can build from
-* Backend service: state machine
-* Agenda
+* Worked at Best Buy and faced a challenge: Enable new ways for customers to purchase products from the store, and to do it without using existing POS technology/IP.
+    * Took foundational architectural descision to begin with modeling the transaction flow as a state machine.
+        * Had never built a state machine before...
+        * Dig deep, create a solid foundation that we can build from
+    * Retail Transaction is generative, created the Retail Sales POSLog
+        * Event-sourcing
+    * Service orchestration (vs coordination), the Saga Pattern
+
+## Agenda
+* State Machines
+* Actor Model
+* Agentic AI
+* Using State Machines to build Multi-agent "Cognitive" Architectures
+* Popular libraries
 
 ## About Me
 * Personal/professional background
@@ -97,14 +106,10 @@
 # Building apps with State Machine Cognitive Architecture
 
 ## Multi-agent Pattern Implementations using State Machines
-* Reflection
+* Tool use
+* Reflection (+ turns)
 * Collaboration & Distribution (specialization across agents coming together)
-* Dynamic planning
-
-## Building a human in the loop with more state machines
-* Self checkout example?
-* Human as Tool
-* Human as State
+* Dynamic planning (Will this work?)
 
 ## Layering on patterns as components in your workflow
 * Reflection/critic with max turns
@@ -114,30 +119,13 @@
 
 # Closing
 
-## Libraries, and should you use them?
+## Library comparisons
 * AutoGen
 * CrewAI
 * LangChain / LangGraph
+* XState Agents
+* Should you use these at all? Pros/cons.
 
 ## Key take-aways, final note
 * State machines are the glue between the "classic" structured world and AI. They're the skeleton upon which engineers can build with both.
 * Next level of LLM-driven is fully autonomous agent, no pre-defined steps at all. But maybe that's just the LLM generating a state machine?
-
-## 5. State Machines as a Foundation for Multi-Agent Systems
-* Agents as "intelligent" state machines with goals
-* Predictability and modularity for complex coordination
-
-
-* LLMs generate the whole event object
-* Event reducer LLM last step in workflow - use messages inside workflow. chatty
-* Handle this event from my UI state machine
-* Orchestration agent, LLM says where the event goes
-
-
-
-## Building Agents with LangGraph
-* LangGraph provides control for custom agent and multi-agent workflows, seamless human-in-the-loop interactions, and native streaming support for enhanced agent reliability and execution.
-
-### Agent Design Patterns
-* "There's even something called React!"
-    * ReAct—Reason and Act
