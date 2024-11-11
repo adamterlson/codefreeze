@@ -1,9 +1,10 @@
-# State Machines in the age of AI
+# Timeless Tech, Modern Magic: Building Multi-Agent Systems with Finite State Machines
+
 ## The audience will learn/take away from this talk...
-* A solid understanding of concepts and application of State Machines
-* What the Actor model is and how to apply it
-* What is Agentic AI, what are the common "cognitive architecture" patterns, including leveraging state machines
-* How to leverage State Machines to implement agentic AI application patterns (reflection, etc)
+* An understanding of core design concepts and applications of State Machines
+* What the Actor model is and how it applies to State Machines
+* What is Agentic AI, what are the common "cognitive architecture" patterns
+* How State Machines can be used to implement agentic AI application patterns (reflection, etc)
 * Libraries to use/why to maybe not use them...
 
 # Introduction
