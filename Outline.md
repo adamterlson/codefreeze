@@ -106,14 +106,11 @@
 # Building apps with State Machine Cognitive Architecture
 
 ## Multi-agent Pattern Implementations using State Machines
-* Tool use
+* Tool use (i.e. creating actor)
 * Reflection (+ turns)
 * Collaboration & Distribution (specialization across agents coming together)
 * Dynamic planning (Will this work?)
-
-## Layering on patterns as components in your workflow
-* Reflection/critic with max turns
-    * withReflection(state)
+* Machine composition
 
 ## Subgraphs?
 
